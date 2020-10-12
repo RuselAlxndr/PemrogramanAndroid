@@ -1,3 +1,5 @@
+package com.example.helloworld;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -7,14 +9,14 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.helloworld.MainActivity2;
-import com.example.helloworld.R;
-
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = MainActivity.class.getSimpleName();
     private EditText txtUsername;
     private EditText txtPassword;
     private Button btnlogin;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,12 +30,11 @@ public class MainActivity extends AppCompatActivity {
 
             public void onClick(View v) {
                 if(txtPassword.getText().toString().equals("admin") && txtUsername.getText().toString().equals("admin")){
-                    Intent i = new Intent( MainActivity.this, MainActivity2.class);
-                    Toast.makeText(getApplicationContext(), "selamat datang "+ txtUsername.getText(),   Toast.LENGTH_LONG).show();
+                    Intent i = new Intent( MainActivity.this,MainActivity2.class);
+                    Toast.makeText(getApplicationContext(), "SELAMAT DATANG "+ txtUsername.getText(),   Toast.LENGTH_LONG).show();
                     startActivity(i);
                 }else{
-                    Toast.makeText(getApplicationContext(),"gagal "+ txtUsername.getText(), Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"TIDAK MENGETAHUI "+ txtUsername.getText(), Toast.LENGTH_LONG).show();
                 }}
         });
     }}
-
