@@ -19,8 +19,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.helloworld.MainActivity2" />
-        <activity android:name="com.example.helloworld.MainActivity" >
+        <activity android:name="com.example.helloworld.Home" />
+        <activity android:name="com.example.helloworld.Login" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
