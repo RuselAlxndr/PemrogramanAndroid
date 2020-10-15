@@ -4,12 +4,12 @@
         "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
-    },
-    {
         "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
