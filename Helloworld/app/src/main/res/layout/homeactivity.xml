@@ -45,6 +45,8 @@
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
         android:text="Notifikasi"
+        android:text="Notif"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
