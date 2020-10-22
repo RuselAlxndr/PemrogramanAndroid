@@ -17,7 +17,7 @@ import android.net.wifi.WifiManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.widget.TextView;
-
+import android.widget.CompoundButton;
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
 
@@ -108,4 +108,6 @@ public class Home extends AppCompatActivity {
                 .build();
         notificationManager.notify(NOTIFICATION_ID,builder);
     }
+
+
 }
