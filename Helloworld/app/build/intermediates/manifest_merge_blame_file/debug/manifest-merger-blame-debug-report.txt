@@ -6,45 +6,52 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->C:\Users\asus\AndroidStudioProjects\tugas4\Helloworld\app\src\main\AndroidManifest.xml
+8-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Users\asus\AndroidStudioProjects\tugas4\Helloworld\app\src\main\AndroidManifest.xml
+9-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->C:\Users\asus\AndroidStudioProjects\tugas4\Helloworld\app\src\main\AndroidManifest.xml:5:5-20:19
-12        android:allowBackup="true"
-12-->C:\Users\asus\AndroidStudioProjects\tugas4\Helloworld\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.3.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\ae3468b444d41a56f261ecbb8448fe17\core-1.3.1\AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\asus\AndroidStudioProjects\tugas4\Helloworld\app\src\main\AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->C:\Users\asus\AndroidStudioProjects\tugas4\Helloworld\app\src\main\AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\asus\AndroidStudioProjects\tugas4\Helloworld\app\src\main\AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->C:\Users\asus\AndroidStudioProjects\tugas4\Helloworld\app\src\main\AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->C:\Users\asus\AndroidStudioProjects\tugas4\Helloworld\app\src\main\AndroidManifest.xml:11:9-40
-21        <activity android:name="com.example.helloworld.Home" />
-21-->C:\Users\asus\AndroidStudioProjects\tugas4\Helloworld\app\src\main\AndroidManifest.xml:12:9-51
-21-->C:\Users\asus\AndroidStudioProjects\tugas4\Helloworld\app\src\main\AndroidManifest.xml:12:19-39
-22        <activity android:name="com.example.helloworld.Login" >
-22-->C:\Users\asus\AndroidStudioProjects\tugas4\Helloworld\app\src\main\AndroidManifest.xml:13:9-19:20
-22-->C:\Users\asus\AndroidStudioProjects\tugas4\Helloworld\app\src\main\AndroidManifest.xml:13:19-40
-23            <intent-filter>
-23-->C:\Users\asus\AndroidStudioProjects\tugas4\Helloworld\app\src\main\AndroidManifest.xml:14:13-18:29
-24                <action android:name="android.intent.action.MAIN" />
-24-->C:\Users\asus\AndroidStudioProjects\tugas4\Helloworld\app\src\main\AndroidManifest.xml:15:17-69
-24-->C:\Users\asus\AndroidStudioProjects\tugas4\Helloworld\app\src\main\AndroidManifest.xml:15:25-66
-25
-26                <category android:name="android.intent.category.LAUNCHER" />
-26-->C:\Users\asus\AndroidStudioProjects\tugas4\Helloworld\app\src\main\AndroidManifest.xml:17:17-77
-26-->C:\Users\asus\AndroidStudioProjects\tugas4\Helloworld\app\src\main\AndroidManifest.xml:17:27-74
-27            </intent-filter>
-28        </activity>
-29    </application>
-30
-31</manifest>
+11    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+11-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:4:5-75
+11-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:4:22-73
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:5:5-75
+12-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:5:22-73
+13
+14    <application
+14-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:6:5-21:19
+15        android:allowBackup="true"
+15-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:7:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.3.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\ae3468b444d41a56f261ecbb8448fe17\core-1.3.1\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:8:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:9:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:10:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:11:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:12:9-40
+24        <activity android:name="com.example.helloworld.Home" />
+24-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:13:9-51
+24-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:13:19-39
+25        <activity android:name="com.example.helloworld.Login" >
+25-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:14:9-20:20
+25-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:14:19-40
+26            <intent-filter>
+26-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:15:13-19:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:16:17-69
+27-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:16:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:18:17-77
+29-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:18:27-74
+30            </intent-filter>
+31        </activity>
+32    </application>
+33
+34</manifest>
