@@ -81,10 +81,7 @@ public class Fragment1 extends Fragment {
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     private void onStartJobService() {
-        Log.i(TAG, "Masuk ke onStartJobService");
-        Log.i(TAG, "onStartJobService: Membuat componentName");
         ComponentName componentName = new ComponentName(requireActivity().getApplicationContext(), MyJobService.class);
-        Log.i(TAG, "onStartJobService: membuat info");
         JobInfo info = new JobInfo.Builder(121018, componentName)
                 .setRequiredNetworkType(JobInfo.NETWORK_TYPE_UNMETERED)
                 .setPersisted(true)
@@ -93,7 +90,6 @@ public class Fragment1 extends Fragment {
         Log.i(TAG, "onStartJobService: membuat scheduler");
         JobScheduler scheduler = (JobScheduler) requireContext().getSystemService(Context.JOB_SCHEDULER_SERVICE);
         int resultCode = scheduler.schedule(info);
-        Log.i(TAG, "onStartJobService: pengecekan resultCode");
         if (resultCode == JobScheduler.RESULT_SUCCESS) {
             Toast.makeText(requireContext().getApplicationContext()
                     , "Job berhasil dibuat", Toast.LENGTH_SHORT).show();

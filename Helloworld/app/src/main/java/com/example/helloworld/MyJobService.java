@@ -6,8 +6,11 @@ import android.content.Context;
 import android.os.Build;
 import android.os.Handler;
 import android.util.Log;
+import android.widget.Toast;
 
 import androidx.annotation.RequiresApi;
+
+import static androidx.core.content.ContentProviderCompat.requireContext;
 
 
 @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
@@ -37,6 +40,7 @@ public class MyJobService extends JobService{
         @Override
         public void run() {
             for (int i = 0; i < 10; i++){
+
                 Log.i(TAG, "run: " + i);
 
                 final int finalI = i;
