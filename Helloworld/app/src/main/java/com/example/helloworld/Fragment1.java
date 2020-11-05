@@ -1,12 +1,21 @@
 package com.example.helloworld;
 
+import android.app.job.JobInfo;
+import android.app.job.JobScheduler;
+import android.content.ComponentName;
+import android.content.Context;
+import android.os.Build;
 import android.os.Bundle;
 
+import androidx.annotation.RequiresApi;
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.Toast;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -14,9 +23,12 @@ import android.view.ViewGroup;
  * create an instance of this fragment.
  */
 public class Fragment1 extends Fragment {
+    private static final String TAG = "Fragment1";
+    public static String MY_FLAG = "MY_FLAG";
+    private Button btnStartJob;
+    private Button btnCancelJob;
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
@@ -49,16 +61,75 @@ public class Fragment1 extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_1, container, false);
+        View view = inflater.inflate(R.layout.fragment_1, container, false);
+
+        btnStartJob = view.findViewById(R.id.startJob);
+        btnCancelJob = view.findViewById(R.id.cancelJob);
+        Log.i(TAG, "onCreateView: button: " + btnStartJob);
+        Log.i(TAG, "onCreateView: memulai service");
+        serviceInit();
+        return view;
+
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+    private void onStartJobService() {
+        ComponentName componentName = new ComponentName(requireActivity().getApplicationContext(), MyJobService.class);
+        JobInfo info = new JobInfo.Builder(121018, componentName)
+                .setRequiredNetworkType(JobInfo.NETWORK_TYPE_UNMETERED)
+                .setPersisted(true)
+                .setPeriodic(15 * 60 * 1000)
+                .build();
+        Log.i(TAG, "onStartJobService: membuat scheduler");
+        JobScheduler scheduler = (JobScheduler) requireContext().getSystemService(Context.JOB_SCHEDULER_SERVICE);
+        int resultCode = scheduler.schedule(info);
+        if (resultCode == JobScheduler.RESULT_SUCCESS) {
+            Toast.makeText(requireContext().getApplicationContext()
+                    , "Job berhasil dibuat", Toast.LENGTH_SHORT).show();
+        } else {
+            Toast.makeText(requireContext().getApplicationContext()
+                    , "Scheduling failed", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+    private void onStopJobService() {
+        JobScheduler scheduler = (JobScheduler) requireContext().getSystemService(Context.JOB_SCHEDULER_SERVICE);
+        scheduler.cancel(121018);
+        Log.i(TAG, "onStopJobService: job di hentikan");
+        Toast.makeText(requireContext().getApplicationContext()
+                , "Service dihentikan", Toast.LENGTH_SHORT).show();
+    }
+
+    private void serviceInit() {
+        Log.i(TAG, "serviceInit: masuk service init");
+        btnStartJob.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+            @Override
+            public void onClick(View v) {
+
+                onStartJobService();
+            }
+        });
+        btnCancelJob.setOnClickListener((new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+            @Override
+            public void onClick(View v) {
+
+                onStopJobService();
+            }
+        }));
     }
 }
+
+
+
+
+

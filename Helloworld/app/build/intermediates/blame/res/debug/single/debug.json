@@ -1,98 +1,162 @@
 [
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_icon_wifi.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\icon_wifi.png"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon_wifi.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\icon_wifi.png"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dunkirk.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\drawable\\dunkirk.png"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main2.xml.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\src\\main\\res\\layout\\activity_main2.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\layout_homeactivity.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\layout\\homeactivity.xml"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_wifi.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\icon_wifi.png"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pp.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\drawable\\pp.png"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_icon_wifi.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\icon_wifi.xml"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_1.xml.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\src\\main\\res\\layout\\fragment_1.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_2.xml.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\src\\main\\res\\layout\\fragment_2.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_wifi.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\icon_wifi.png"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable_first.jpg.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\drawable\\first.jpg"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas4\\Helloworld\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dilan.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\drawable\\dilan.png"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_1.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\layout\\fragment_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icon_wifi.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\icon_wifi.png"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_wifi.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\icon_wifi.png"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tabu.jpg.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\drawable\\tabu.jpg"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\layout_single_row_design.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\layout\\single_row_design.xml"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tdm.jpg.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\drawable\\tdm.jpg"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\layout_loginactivity.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\layout\\loginactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable_parasite.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\drawable\\parasite.png"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_2.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\layout\\fragment_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     }
 ]
