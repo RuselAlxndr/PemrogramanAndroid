@@ -116,7 +116,7 @@ public class Fragment1 extends Fragment {
             @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
             @Override
             public void onClick(View v) {
-                Log.i(TAG, "onClick:button mulai di tekan");
+
                 onStartJobService();
             }
         });
