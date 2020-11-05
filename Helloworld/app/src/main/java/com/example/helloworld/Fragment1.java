@@ -95,9 +95,11 @@ public class Fragment1 extends Fragment {
         int resultCode = scheduler.schedule(info);
         Log.i(TAG, "onStartJobService: pengecekan resultCode");
         if (resultCode == JobScheduler.RESULT_SUCCESS) {
-            Log.i(TAG, "onStartJobService: job berhasil di buat");
+            Toast.makeText(requireContext().getApplicationContext()
+                    , "Job berhasil dibuat", Toast.LENGTH_SHORT).show();
         } else {
-            Log.i(TAG, "onStartJobService: job scheduling failed");
+            Toast.makeText(requireContext().getApplicationContext()
+                    , "Scheduling failed", Toast.LENGTH_SHORT).show();
         }
     }
 
