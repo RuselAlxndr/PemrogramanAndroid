@@ -21,7 +21,7 @@
 13-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:9:22-78
 14
 15    <application
-15-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:10:5-26:19
+15-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:10:5-29:19
 16        android:allowBackup="true"
 16-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:11:9-35
 17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -38,27 +38,30 @@
 23        android:testOnly="true"
 24        android:theme="@style/AppTheme" >
 24-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:16:9-40
-25        <service android:name="com.example.helloworld.MyJobService" />
-25-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:17:9-49
-25-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:17:18-46
-26
-27        <activity android:name="com.example.helloworld.Home" />
-27-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:18:9-51
-27-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:18:19-39
-28        <activity android:name="com.example.helloworld.Login" >
-28-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:19:9-25:20
-28-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:19:19-40
-29            <intent-filter>
-29-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:20:13-24:29
-30                <action android:name="android.intent.action.MAIN" />
-30-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:21:17-69
-30-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:21:25-66
-31
-32                <category android:name="android.intent.category.LAUNCHER" />
-32-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:23:17-77
-32-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:23:27-74
-33            </intent-filter>
-34        </activity>
-35    </application>
-36
-37</manifest>
+25        <service
+25-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:18:9-19:71
+26            android:name="com.example.helloworld.MyJobService"
+26-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:18:18-46
+27            android:permission="android.permission.BIND_JOB_SERVICE" />
+27-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:19:13-69
+28
+29        <activity android:name="com.example.helloworld.Home" />
+29-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:21:9-51
+29-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:21:19-39
+30        <activity android:name="com.example.helloworld.Login" >
+30-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:22:9-28:20
+30-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:22:19-40
+31            <intent-filter>
+31-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:23:13-27:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:24:17-69
+32-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:24:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:26:17-77
+34-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:26:27-74
+35            </intent-filter>
+36        </activity>
+37    </application>
+38
+39</manifest>

@@ -23,7 +23,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <service android:name="com.example.helloworld.MyJobService" />
+        <service
+            android:name="com.example.helloworld.MyJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
 
         <activity android:name="com.example.helloworld.Home" />
         <activity android:name="com.example.helloworld.Login" >
