@@ -21,7 +21,7 @@
 13-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:9:22-78
 14
 15    <application
-15-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:10:5-29:19
+15-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:10:5-30:19
 16        android:allowBackup="true"
 16-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:11:9-35
 17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -48,20 +48,23 @@
 29        <activity android:name="com.example.helloworld.Home" />
 29-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:21:9-51
 29-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:21:19-39
-30        <activity android:name="com.example.helloworld.Login" >
-30-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:22:9-28:20
-30-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:22:19-40
-31            <intent-filter>
-31-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:23:13-27:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:24:17-69
-32-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:24:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:26:17-77
-34-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:26:27-74
-35            </intent-filter>
-36        </activity>
-37    </application>
-38
-39</manifest>
+30        <activity android:name="com.example.helloworld.Register" />
+30-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:22:9-55
+30-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:22:19-43
+31        <activity android:name="com.example.helloworld.Login" >
+31-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:23:9-29:20
+31-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:23:19-40
+32            <intent-filter>
+32-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:24:13-28:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:25:17-69
+33-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:25:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:27:17-77
+35-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:27:27-74
+36            </intent-filter>
+37        </activity>
+38    </application>
+39
+40</manifest>

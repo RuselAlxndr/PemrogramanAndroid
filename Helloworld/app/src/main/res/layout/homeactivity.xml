@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Home">
 
+
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabBar"
         android:layout_width="409dp"
@@ -29,27 +30,27 @@
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewPager"
-        android:layout_width="409dp"
-        android:layout_height="680dp"
-
-
-
+        android:layout_width="415dp"
+        android:layout_height="576dp"
         android:layout_marginTop="8dp"
+
+
+        android:background="@color/colorAccent"
         app:layout_constraintTop_toBottomOf="@+id/tabBar"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="-8dp" />
 
-    <TextView
-        android:id="@+id/text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:text="Notifikasi"
-
-
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="128dp"
+        android:layout_height="53dp"
+        android:text="Log out"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewPager"
+        app:layout_constraintVertical_bias="0.091" />
 
-        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
