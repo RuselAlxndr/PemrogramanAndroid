@@ -59,7 +59,7 @@ public class Login extends AppCompatActivity {
                     //SESSION
                     startActivity(new Intent(Login.this, Home.class));
                 }else {
-                    Toast.makeText(Login.this, "Gagal", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Login.this, "User belum terdaftar", Toast.LENGTH_SHORT).show();
                 }
 
             }

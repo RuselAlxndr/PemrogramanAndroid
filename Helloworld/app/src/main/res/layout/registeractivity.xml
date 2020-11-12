@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -11,6 +10,7 @@
     tools:context=".Register">
 
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,9 +18,11 @@
         android:gravity="center_horizontal"
         android:orientation="horizontal"
         android:paddingLeft="5dp"
-        android:paddingRight="5dp"/>
+        android:paddingRight="5dp"
+        >
 
         <TextView
+            android:id="@+id/textView1"
             android:layout_width="0dp"
             android:layout_height="32dp"
             android:layout_weight="0.25"
@@ -37,6 +39,7 @@
             android:gravity="center_vertical"
             android:hint="Email"
             tools:ignore="DuplicateIds"/>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -49,7 +52,7 @@
 
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView2"
             android:layout_width="0dp"
             android:layout_weight="0.25"
             android:layout_height="32dp"
@@ -65,21 +68,20 @@
             android:layout_weight="0.75"
             android:layout_height="32dp"
             android:gravity="center_vertical"
-
             android:background="@color/colorWhite"/>
     </LinearLayout>
 
 
-    <Button
-        android:id="@+id/btnRegister"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="0dp"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp"
-        android:text="Confirm" />
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Confirm" />
 
-    <Button
+        <Button
             android:id="@+id/btnCancel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
