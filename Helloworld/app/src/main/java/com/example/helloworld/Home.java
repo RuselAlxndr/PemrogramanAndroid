@@ -16,6 +16,8 @@ import android.content.IntentFilter;
 import android.net.wifi.WifiManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.CompoundButton;
 import com.google.android.material.tabs.TabItem;
@@ -23,22 +25,25 @@ import com.google.android.material.tabs.TabLayout;
 
 
 public class Home extends AppCompatActivity {
+    private Button btnLogout;
+    boolean session;
+    SharedPrefManager sharedPrefManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.homeactivity);
-        //kosong
+        btnLogout = findViewById(R.id.btnlogout);
+
         TabLayout tabLayout = findViewById(R.id.tabBar);
         @SuppressLint("WrongViewCast") TabItem tabFragmentsatu = findViewById(R.id.Fragment1);
         @SuppressLint("WrongViewCast") TabItem tabFragmentdua = findViewById(R.id.Fragment2);
-
         final ViewPager viewPager = findViewById(R.id.viewPager);
         PagerAdapter pagerAdapter = new PagerAdapter(getSupportFragmentManager(),
                 tabLayout.getTabCount());
-
-
         viewPager.setAdapter(pagerAdapter);
+
+
 
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
@@ -56,6 +61,21 @@ public class Home extends AppCompatActivity {
 
             }
         });
+
+        //logout
+        sharedPrefManager = new SharedPrefManager(this);
+        btnLogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sharedPrefManager.saveSPBoolean(SharedPrefManager.SP_SUDAH_LOGIN, false);
+                startActivity(new Intent(Home.this, Login.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK));
+                finish();
+            }
+        });
+
+
+
+
     }
     @Override
     protected void onStart() {
