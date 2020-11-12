@@ -64,6 +64,10 @@
         "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\layout_registeractivity.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\layout\\registeractivity.xml"
+    },
+    {
         "merged": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\asus\\AndroidStudioProjects\\tugas5\\Helloworld\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
