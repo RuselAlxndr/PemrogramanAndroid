@@ -32,6 +32,8 @@
             android:text="Fragment 2" />
 
 
+
+
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.viewpager.widget.ViewPager
