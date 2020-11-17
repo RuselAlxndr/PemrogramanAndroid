@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "234384967223",
+    "firebase_url": "https://pemrogramanandroid-3076b.firebaseio.com",
+    "project_id": "pemrogramanandroid-3076b",
+    "storage_bucket": "pemrogramanandroid-3076b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234384967223:android:6ec604d6beb823256421b2",
+        "android_client_info": {
+          "package_name": "com.example.helloworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234384967223-vnfbmlochoomevl71e8qqar5lvpf8ogb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.helloworld",
+            "certificate_hash": "270a0280d2808f1058ca86b333bb40b8f926789d"
+          }
+        },
+        {
+          "client_id": "234384967223-1ht56irdec2e2btrf832p580q94bic3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_0rP5D3_7V7gNoFdseX4DWbEfMC_pSPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234384967223-1ht56irdec2e2btrf832p580q94bic3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
