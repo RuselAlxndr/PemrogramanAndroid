@@ -1874,11 +1874,14 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id nama
 id namaMhs
 id navigation_header_container
 id never
+id nim
 id noMhs
 id noScroll
+id nohp
 id none
 id normal
 id notification_background
@@ -1909,6 +1912,7 @@ id radio
 id ratio
 id rectangles
 id recview
+id recycler2
 id reverseSawtooth
 id right
 id right_icon
@@ -2117,6 +2121,7 @@ layout design_text_input_start_icon
 layout fragment_1
 layout fragment_2
 layout fragment_3
+layout fragment_4
 layout homeactivity
 layout loginactivity
 layout mtrl_alert_dialog
@@ -2167,6 +2172,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout single_row_design
+layout single_row_design2
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_chip_zero_corner_radius
