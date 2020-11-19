@@ -15,6 +15,7 @@ MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\asus\.gradl
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\0caaf3ad8d375379d8fac9161788791f\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b832c3edb023b347fb183411e48c5e19\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\1389646dcdf17c6bdde7ba1c11caf055\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [it.xabaras.android:recyclerview-swipedecorator:1.2.3] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d67f342476ce99feb5067e411746124f\jetified-recyclerview-swipedecorator-1.2.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\5870076e9aa8ff3c9d23d6b9ac77a811\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\86a6e4f05f7b51af1f6020018299810c\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\2a0d85dfbfda3e6b74c7236755ddf770\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:2:1-9:12
@@ -185,6 +186,8 @@ MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\asus\.gradle\cac
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b832c3edb023b347fb183411e48c5e19\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\1389646dcdf17c6bdde7ba1c11caf055\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\1389646dcdf17c6bdde7ba1c11caf055\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [it.xabaras.android:recyclerview-swipedecorator:1.2.3] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d67f342476ce99feb5067e411746124f\jetified-recyclerview-swipedecorator-1.2.3\AndroidManifest.xml:7:5-9:41
+MERGED from [it.xabaras.android:recyclerview-swipedecorator:1.2.3] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d67f342476ce99feb5067e411746124f\jetified-recyclerview-swipedecorator-1.2.3\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\5870076e9aa8ff3c9d23d6b9ac77a811\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\5870076e9aa8ff3c9d23d6b9ac77a811\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\86a6e4f05f7b51af1f6020018299810c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44

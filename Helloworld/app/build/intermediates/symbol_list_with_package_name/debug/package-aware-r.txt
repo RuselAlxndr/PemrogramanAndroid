@@ -1636,6 +1636,7 @@ id FUNCTION
 id Fragment1
 id Fragment2
 id Fragment3
+id Fragment4
 id META
 id NO_DEBUG
 id SHIFT
@@ -1723,8 +1724,10 @@ id bottom
 id bounce
 id btnCancel
 id btnRegister
+id btndelete
 id btnlogin
 id btnlogout
+id btnupdate
 id buttonPanel
 id cancelJob
 id cancel_action

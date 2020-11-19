@@ -1,21 +1,35 @@
 package com.example.helloworld;
 
+import android.os.Build;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.provider.ContactsContract;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
+import com.firebase.ui.firestore.ObservableSnapshotArray;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.material.snackbar.Snackbar;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
+
+import org.w3c.dom.Document;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -79,6 +93,7 @@ public class Fragment4 extends Fragment {
         Query query = firebaseFirestore.collection("DaftarMhs");
         FirestoreRecyclerOptions<Mahasiswa> options = new FirestoreRecyclerOptions.Builder<Mahasiswa>()
                 .setQuery(query,Mahasiswa.class)
+
                 .build();
 
          adapter = new FirestoreRecyclerAdapter<Mahasiswa, MahasiswaViewHolder>(options) {
@@ -95,22 +110,27 @@ public class Fragment4 extends Fragment {
                  holder.nim.setText(model.getNim());
                  holder.nohp.setText(model.getPhone());
             }
+
         };
     mFirestoreList.setLayoutManager(new LinearLayoutManager(getContext()));
     mFirestoreList.setAdapter(adapter);
     return view;
+
     }
 
     private class MahasiswaViewHolder extends RecyclerView.ViewHolder {
         private TextView nama;
         private TextView nim;
         private TextView nohp;
+        private Button btnupdate;
+        private Button btndelete;
         public MahasiswaViewHolder(@NonNull View itemView) {
             super(itemView);
 
             nama = itemView.findViewById(R.id.nama);
             nim = itemView.findViewById(R.id.nim);
             nohp = itemView.findViewById(R.id.nohp);
+
 
         }
     }
@@ -124,4 +144,7 @@ public class Fragment4 extends Fragment {
         super.onStart();
         adapter.startListening();
     }
+
+
+
 }
