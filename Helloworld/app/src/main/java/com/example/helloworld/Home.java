@@ -38,6 +38,8 @@ public class Home extends AppCompatActivity {
         TabLayout tabLayout = findViewById(R.id.tabBar);
         @SuppressLint("WrongViewCast") TabItem tabFragmentsatu = findViewById(R.id.Fragment1);
         @SuppressLint("WrongViewCast") TabItem tabFragmentdua = findViewById(R.id.Fragment2);
+        @SuppressLint("WrongViewCast") TabItem tabFragmenttiga = findViewById(R.id.Fragment3);
+
         final ViewPager viewPager = findViewById(R.id.viewPager);
         PagerAdapter pagerAdapter = new PagerAdapter(getSupportFragmentManager(),
                 tabLayout.getTabCount());

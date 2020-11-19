@@ -6,65 +6,117 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml
+8-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml
+9-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml
 10
-11    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-11-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:7:5-75
-11-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:7:22-73
-12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-12-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:8:5-75
-12-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:8:22-73
-13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-13-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:9:5-81
-13-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:9:22-78
-14
-15    <application
-15-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:10:5-30:19
-16        android:allowBackup="true"
-16-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:11:9-35
-17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-17-->[androidx.core:core:1.3.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\ae3468b444d41a56f261ecbb8448fe17\core-1.3.1\AndroidManifest.xml:24:18-86
-18        android:debuggable="true"
-19        android:icon="@mipmap/ic_launcher"
-19-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:12:9-43
-20        android:label="@string/app_name"
-20-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:13:9-41
-21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:14:9-54
-22        android:supportsRtl="true"
-22-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:15:9-35
-23        android:testOnly="true"
-24        android:theme="@style/AppTheme" >
-24-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:16:9-40
-25        <service
-25-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:18:9-19:71
-26            android:name="com.example.helloworld.MyJobService"
-26-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:18:18-46
-27            android:permission="android.permission.BIND_JOB_SERVICE" />
-27-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:19:13-69
-28
-29        <activity android:name="com.example.helloworld.Home" />
-29-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:21:9-51
-29-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:21:19-39
-30        <activity android:name="com.example.helloworld.Register" />
-30-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:22:9-55
-30-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:22:19-43
-31        <activity android:name="com.example.helloworld.Login" >
-31-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:23:9-29:20
-31-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:23:19-40
-32            <intent-filter>
-32-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:24:13-28:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:25:17-69
-33-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:25:25-66
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:27:17-77
-35-->C:\Users\asus\AndroidStudioProjects\tugas5\Helloworld\app\src\main\AndroidManifest.xml:27:27-74
-36            </intent-filter>
-37        </activity>
-38    </application>
-39
-40</manifest>
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+12-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:7:5-75
+12-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:7:22-73
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:8:5-75
+13-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:8:22-73
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:9:5-81
+14-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:16.0.4] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\672675598bd0737faeb23ef9b5194a75\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+15-->[com.google.firebase:firebase-database:16.0.4] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\672675598bd0737faeb23ef9b5194a75\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
+16
+17    <application
+17-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:10:5-30:19
+18        android:name="androidx.multidex.MultiDexApplication"
+19        android:allowBackup="true"
+19-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:11:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.3.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\2304b4d358f31593a5b8b111395f1cd2\core-1.3.1\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:12:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:13:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:14:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:15:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:16:9-40
+28        <service
+28-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:18:9-19:71
+29            android:name="com.example.helloworld.MyJobService"
+29-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:18:18-46
+30            android:permission="android.permission.BIND_JOB_SERVICE" />
+30-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:19:13-69
+31
+32        <activity android:name="com.example.helloworld.Home" />
+32-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:21:9-51
+32-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:21:19-39
+33        <activity android:name="com.example.helloworld.Register" />
+33-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:22:9-55
+33-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:22:19-43
+34        <activity android:name="com.example.helloworld.Login" >
+34-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:23:9-29:20
+34-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:23:19-40
+35            <intent-filter>
+35-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:24:13-28:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:25:17-69
+36-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:25:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:27:17-77
+38-->C:\Users\asus\AndroidStudioProjects\PemrogramanAndroid2\Helloworld\app\src\main\AndroidManifest.xml:27:27-74
+39            </intent-filter>
+40        </activity>
+41
+42        <service
+42-->[com.google.firebase:firebase-firestore:22.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\88c9413963ee73af3743c9eb566161bb\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:17:9-23:19
+43            android:name="com.google.firebase.components.ComponentDiscoveryService"
+43-->[com.google.firebase:firebase-firestore:22.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\88c9413963ee73af3743c9eb566161bb\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:18:13-84
+44            android:directBootAware="true"
+44-->[com.google.firebase:firebase-common:19.3.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b53108ec39d9732359576999f06f4ec9\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+45            android:exported="false" >
+45-->[com.google.firebase:firebase-firestore:22.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\88c9413963ee73af3743c9eb566161bb\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:19:13-37
+46            <meta-data
+46-->[com.google.firebase:firebase-firestore:22.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\88c9413963ee73af3743c9eb566161bb\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:20:13-22:85
+47                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+47-->[com.google.firebase:firebase-firestore:22.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\88c9413963ee73af3743c9eb566161bb\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:21:17-111
+48                android:value="com.google.firebase.components.ComponentRegistrar" />
+48-->[com.google.firebase:firebase-firestore:22.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\88c9413963ee73af3743c9eb566161bb\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:22:17-82
+49        </service>
+50
+51        <activity
+51-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\7f1c05604811b5d8b0b39e85e23d9427\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+52            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+52-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\7f1c05604811b5d8b0b39e85e23d9427\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+53            android:exported="false"
+53-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\7f1c05604811b5d8b0b39e85e23d9427\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+54            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+54-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\7f1c05604811b5d8b0b39e85e23d9427\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+55
+56        <provider
+56-->[com.google.firebase:firebase-common:19.3.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b53108ec39d9732359576999f06f4ec9\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+57            android:name="com.google.firebase.provider.FirebaseInitProvider"
+57-->[com.google.firebase:firebase-common:19.3.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b53108ec39d9732359576999f06f4ec9\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+58            android:authorities="com.example.helloworld.firebaseinitprovider"
+58-->[com.google.firebase:firebase-common:19.3.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b53108ec39d9732359576999f06f4ec9\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+59            android:directBootAware="true"
+59-->[com.google.firebase:firebase-common:19.3.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b53108ec39d9732359576999f06f4ec9\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+60            android:exported="false"
+60-->[com.google.firebase:firebase-common:19.3.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b53108ec39d9732359576999f06f4ec9\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+61            android:initOrder="100" />
+61-->[com.google.firebase:firebase-common:19.3.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b53108ec39d9732359576999f06f4ec9\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+62
+63        <meta-data
+63-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\aa0b0b1b8ee658361451379d95ea2969\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+64            android:name="com.google.android.gms.version"
+64-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\aa0b0b1b8ee658361451379d95ea2969\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+65            android:value="@integer/google_play_services_version" />
+65-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\aa0b0b1b8ee658361451379d95ea2969\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+66    </application>
+67
+68</manifest>
