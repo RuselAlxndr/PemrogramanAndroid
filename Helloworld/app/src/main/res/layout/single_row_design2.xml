@@ -7,9 +7,10 @@
     android:elevation="4dp"
     app:cardUseCompatPadding="true"
     >
+
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="209dp"
         android:padding="16dp">
 
 
@@ -28,36 +29,52 @@
             android:id="@+id/nama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@id/t1"
             android:layout_marginLeft="19dp"
             android:layout_marginTop="12dp"
             android:gravity="center_vertical"
             android:text="Description text"
-            android:textSize="15dp"
-            android:layout_below="@id/t1"/>
+            android:textSize="15dp" />
+
         <TextView
             android:id="@+id/nim"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@id/nama"
             android:layout_marginLeft="19dp"
             android:layout_marginTop="12dp"
             android:gravity="center_vertical"
             android:text="Description text"
-            android:textSize="15dp"
-            android:layout_below="@id/nama"/>
+            android:textSize="15dp" />
 
         <TextView
             android:id="@+id/nohp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@id/nim"
             android:layout_marginLeft="19dp"
             android:layout_marginTop="12dp"
             android:gravity="center_vertical"
             android:text="Description text"
-            android:textSize="15dp"
-            android:layout_below="@id/nim"/>
+            android:textSize="15dp" />
 
-
-
+        <Button
+            android:id="@+id/btnupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nohp"
+            android:layout_marginTop="0dp"
+            android:gravity="center_vertical"
+            android:text="Update" />
+        <Button
+            android:id="@+id/btndelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/btnupdate"
+            android:layout_below="@id/nohp"
+            android:layout_marginTop="0dp"
+            android:gravity="center_vertical"
+            android:text="Delete" />
 
 
     </RelativeLayout>
