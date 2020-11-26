@@ -134,6 +134,7 @@ public class Fragment4 extends Fragment {
 
         }
     }
+
     @Override
     public void onStop(){
         super.onStop();

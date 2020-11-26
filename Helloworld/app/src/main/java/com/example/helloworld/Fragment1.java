@@ -88,6 +88,7 @@ public class Fragment1 extends Fragment {
                 .setPeriodic(15 * 60 * 1000)
                 .build();
         Log.i(TAG, "onStartJobService: membuat scheduler");
+
         JobScheduler scheduler = (JobScheduler) requireContext().getSystemService(Context.JOB_SCHEDULER_SERVICE);
         int resultCode = scheduler.schedule(info);
         if (resultCode == JobScheduler.RESULT_SUCCESS) {
@@ -96,6 +97,7 @@ public class Fragment1 extends Fragment {
         } else {
             Toast.makeText(requireContext().getApplicationContext()
                     , "Scheduling failed", Toast.LENGTH_SHORT).show();
+
         }
     }
 
@@ -126,7 +128,9 @@ public class Fragment1 extends Fragment {
                 onStopJobService();
             }
         }));
+
     }
+
 }
 
 

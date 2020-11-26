@@ -1637,6 +1637,8 @@ id Fragment1
 id Fragment2
 id Fragment3
 id Fragment4
+id Fragment_camera
+id Fragment_gallery
 id META
 id NO_DEBUG
 id SHIFT
@@ -1723,6 +1725,7 @@ id blocking
 id bottom
 id bounce
 id btnCancel
+id btnLaunchCamera
 id btnRegister
 id btndelete
 id btnlogin
@@ -2125,6 +2128,8 @@ layout fragment_1
 layout fragment_2
 layout fragment_3
 layout fragment_4
+layout fragment_check_orientation
+layout fragment_photo
 layout homeactivity
 layout loginactivity
 layout mtrl_alert_dialog

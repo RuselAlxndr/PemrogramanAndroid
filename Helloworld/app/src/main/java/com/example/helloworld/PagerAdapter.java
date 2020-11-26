@@ -24,7 +24,12 @@ public class PagerAdapter extends FragmentPagerAdapter {
                 return new Fragment3();
             case 3:
                 return new Fragment4();
+            case 4:
+                    return new PhotoFragment();
+            case 5:
+                    return new checkOrientation();
             default:
+
                 return null;
 
         }
