@@ -28,6 +28,10 @@
         "source": "C:\\Users\\asus\\AndroidStudioProjects\\PemrogramanAndroid2\\Helloworld\\app\\src\\main\\res\\drawable\\tdm.jpg"
     },
     {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\PemrogramanAndroid2\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_photo.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\PemrogramanAndroid2\\Helloworld\\app\\src\\main\\res\\layout\\fragment_photo.xml"
+    },
+    {
         "merged": "C:\\Users\\asus\\AndroidStudioProjects\\PemrogramanAndroid2\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\asus\\AndroidStudioProjects\\PemrogramanAndroid2\\Helloworld\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
@@ -106,6 +110,10 @@
     {
         "merged": "C:\\Users\\asus\\AndroidStudioProjects\\PemrogramanAndroid2\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_wifi.png.flat",
         "source": "C:\\Users\\asus\\AndroidStudioProjects\\PemrogramanAndroid2\\Helloworld\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\icon_wifi.png"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\PemrogramanAndroid2\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_check_orientation.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\PemrogramanAndroid2\\Helloworld\\app\\src\\main\\res\\layout\\fragment_check_orientation.xml"
     },
     {
         "merged": "C:\\Users\\asus\\AndroidStudioProjects\\PemrogramanAndroid2\\Helloworld\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_3.xml.flat",
